@@ -3,6 +3,10 @@
 ## Project Description
 Retail Pulse provides a backend service to process thousands of images collected from stores. The service calculates image perimeters and stores results. It also handles job submissions and status updates via APIs.
 
+# Demo video
+
+# Screenshot of important **APIs**
+
 ## Assumptions
 - MongoDB Cloud is used as the database.
 - Node.js version 16+ is required.
