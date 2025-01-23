@@ -3,9 +3,16 @@
 ## Project Description
 Retail Pulse provides a backend service to process thousands of images collected from stores. The service calculates image perimeters and stores results. It also handles job submissions and status updates via APIs.
 
-# Demo video
+# Demo Video
+https://github.com/user-attachments/assets/6aa33c31-c442-491c-99cb-a4a21f8982d4
 
-# Screenshot of important **APIs**
+
+# Screenshot of important **API's**
+![Screenshot (332)](https://github.com/user-attachments/assets/acd60ba5-8d75-45f2-8466-2976234cab24)
+![Screenshot (333)](https://github.com/user-attachments/assets/3a180a48-a06f-41d1-a0ec-f08ada7b92f6)
+![Screenshot (334)](https://github.com/user-attachments/assets/2072da20-fa20-41f6-9e99-be46852f83fd)
+![Screenshot (331)](https://github.com/user-attachments/assets/221704cf-0f21-4a50-94f3-da6b98eb5f59)
+
 
 ## Assumptions
 - MongoDB Cloud is used as the database.
@@ -49,19 +56,7 @@ Retail Pulse provides a backend service to process thousands of images collected
 ## Usage
 - **Submit a Job**: 
     - POST request to `/api/submit`
-    - Example payload:
-      ```json
-      {
-          "count": 2,
-          "visits": [
-              {
-                  "store_id": "RP00001",
-                  "image_url": ["<image_url1>", "<image_url2>"],
-                  "visit_time": "2025-01-23T12:00:00"
-              }
-          ]
-      }
-      ```
+    
 - **Check Job Status**: 
     - GET request to `/api/status?jobid=123`
     - Returns job status (completed, ongoing, failed).
@@ -89,11 +84,5 @@ Retail Pulse provides a backend service to process thousands of images collected
 - Optimize the image processing logic for larger datasets.
 - Implement job retry mechanism for failed jobs.
 
-## Contributing
-Feel free to fork this repository, open issues, or make pull requests to contribute.
-
-## License
-This project is licensed under the MIT License.
-
 ## Contact
-Shubham - shubham@example.com
+Shubham - shubhamsonake307@gmail.com
